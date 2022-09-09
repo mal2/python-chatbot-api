@@ -1,5 +1,5 @@
 # Intent chatbot websocket server example for library application
-Backend that delivers the response from the ML model via websocket, see [client](https://github.com/mal2/python-chatbot-client)
+Backend that delivers the response from the ML model ([training](https://github.com/mal2/python-chatbot-training)) via websocket, see [client](https://github.com/mal2/python-chatbot-client)
 ## Setup
 Creating a virtual environment and activate it:
 ```
