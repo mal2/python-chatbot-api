@@ -21,8 +21,8 @@ app: FastAPI = FastAPI(
 origins = [
     "http://localhost",
     "http://127.0.0.1:5000",
-    "http://cbapi.up.railway.app",
-    "https://cbapi.up.railway.app"
+    "http://cbclient.up.railway.app",
+    "https://cbclient.up.railway.app"
 ]
 
 app.add_middleware(
