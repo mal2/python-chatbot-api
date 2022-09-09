@@ -53,7 +53,7 @@ class Trickster:
         self.model.eval()
 
 
-    def tokenize(self, sentence):
+    def tokenize(self, sentence: list[str]) -> list[str]:
         """
         split sentence into array of words/tokens
         a token can be a word or punctuation character, or number
