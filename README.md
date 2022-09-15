@@ -20,5 +20,5 @@ pip install -r requirements.txt
 ## Usage
 Finally run by using:
 ```
-uvicorn main:app --reload --port 5000
+uvicorn main:app --reload --port 8000
 ```

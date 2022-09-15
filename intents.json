@@ -27,7 +27,7 @@
         },
         {"tag": "payments",
          "patterns": ["Wo kann ich Gebühren bezahlen?", "Kann ich Bar zahlen?", "Wie zahle ich Mahngebühren?" ],
-         "responses": ["Eine Überweisung von in allen FU-Bibliotheken entstandenen Mahn- und Fernleihgebühren ist auf folgendes Konto möglich, die Buchung kann jedoch mehrere Tage in Anspruch nehmen:\n\n Deutsche Bank PGK AG\n IBAN: DE67 1007 0848 051 3128 900\n Swift Code (BIC): DEUTDEDB110\n Verwendungszweck: 011/58 + Matrikel- oder Benutzungsausweisnummer (unbedingt erforderlich!)\n\n oder an den Kassenautomaten\n Mensa FU II (Eingang Otto-von-Simson-Straße 26)\n Studierendenverwaltung (Iltisstraße 1)\n Universitätsbibliothek (Garystr. 39) "]
+         "responses": ["<p>Eine Überweisung von in allen FU-Bibliotheken entstandenen Mahn- und Fernleihgebühren ist auf folgendes Konto möglich, die Buchung kann jedoch mehrere Tage in Anspruch nehmen:</p><p>Deutsche Bank PGK AG</p><p>IBAN: DE67 1007 0848 051 3128 900</p><p>Swift Code (BIC): DEUTDEDB110</p><p>Verwendungszweck: 011/58 + Matrikel- oder Benutzungsausweisnummer (unbedingt erforderlich!)</p> oder an den Kassenautomaten<ul><li>Mensa FU II (Eingang Otto-von-Simson-Straße 26)</li><li>Studierendenverwaltung (Iltisstraße 1)</li><li>Zentralbibliothek (Garystr. 39)</li></ul>"]
         },
         {"tag": "opentoday",
          "patterns": ["Ist heute offen?", "Wie sind die Öffnungszeiten heute?"],
@@ -40,7 +40,7 @@
         },
         {"tag": "search",
          "patterns": ["suchen"],
-         "responses": ["Um nach Büchern zu suchen benutze bitte unseren Katalog <a href='http://primo.fu-berlin.de' target="_blank" rel="noopener">Primo</a>"],
+         "responses": ["Um nach Büchern zu suchen benutze bitte unseren Katalog <a href='http://primo.fu-berlin.de' target='_blank' rel='noopener'>Primo</a>"],
          "context_filter": "booksearch"
         },
         {"tag": "borrow",
@@ -59,7 +59,7 @@
         },
         {"tag": "familyroom",
          "patterns": ["Kann ich die Bibliothek mit meinem Kind besuchen?","Ich habe ein Kind.", "Kann ich mein Kind mitnehmen"],
-         "responses": ["Wir haben einen Eltern-Kind-Raum der über die <a href='https://raumbuchung.ub.fu-berlin.de/studydesk_cb/index.php' target="_blank" rel="noopener">Raumbuchung</a> reserviert werden kann."]
+         "responses": ["Wir haben einen Eltern-Kind-Raum der über die <a href='https://raumbuchung.ub.fu-berlin.de/studydesk_cb/index.php' target='_blank' rel='noopener'>Raumbuchung</a> reserviert werden kann."]
         },
         {"tag": "grouproom",
          "patterns": ["Kann ich in Gruppen arbeiten?","Kann ich mich unterhalten?", "Kann ich reden.", "Kann ich mit freunden lernen.", "Können wir in Gruppen lernen", "Können wir zusammen lernen?"],
@@ -67,24 +67,24 @@
         },
         {"tag": "coffelecture",
          "patterns": ["Kann ich Kaffe haben?","Wo bekomme ich Kaffee?", "Habt ihr Lernangebote?", "Wo gibt es Kaffee?"],
-         "responses": ["Die nächste Coffe-Lecture findet am 28.09.2022 statt. Mehr Infos gibt es unter <a href='https://www.fu-berlin.de/sites/campusbib/_media/Lernangebote-und-Fuehrungen-Coffee-Lecture.html' target="_blank" rel="noopener">Coffe Lecture</a>"],
+         "responses": ["Die nächste Coffe-Lecture findet am 28.09.2022 statt. Mehr Infos gibt es unter <a href='https://www.fu-berlin.de/sites/campusbib/_media/Lernangebote-und-Fuehrungen-Coffee-Lecture.html' target='_blank' rel='noopener'>Coffe Lecture</a>"],
          "action" : "[crawl date]"
         },
         {"tag": "due",
          "patterns": ["Wie lange kann ich ein Buch ausleihen?", "Was sind die Fristen?", "Wie viele Bücher kann ich ausleihen?"],
-         "responses": ["Eine Übersicht zu den Exemplarrichtlinien findest du <a href='https://www.fu-berlin.de/sites/campusbib/_media/Exemplarrichtlinie.pdf' target="_blank" rel="noopener">hier</a>"]
+         "responses": ["Eine Übersicht zu den Exemplarrichtlinien findest du <a href='https://www.fu-berlin.de/sites/campusbib/_media/Exemplarrichtlinie.pdf' target='_blank' rel='noopener'>hier</a>"]
         },
         {"tag": "account",
          "patterns": ["Wo sehe ich welche Bücher ich geliehen haben?", "Wie viele Bücher habe ich ausgeliehen?", "Welche Bücher habe ich?", "Kann ich mein Buch verlängern"],
-         "responses": ["Eine Übersicht zu deine Ausleihen findest du in deinem <a href='https://fu-berlin.hosted.exlibrisgroup.com/primo-explore/account?vid=FUB&lang=de_DE&section=personal_details' target="_blank" rel="noopener">Primo-Konto</a>"]
+         "responses": ["Eine Übersicht zu deine Ausleihen findest du in deinem <a href='https://fu-berlin.hosted.exlibrisgroup.com/primo-explore/account?vid=FUB&lang=de_DE&section=personal_details' target='_blank' rel='noopener'>Primo-Konto</a>"]
         },
         {"tag": "digitalisation",
          "patterns": ["Kann ich Bücher scannen?", "Können Zeitschriften digitalisiert werden?", "Wo kann ich Zeitschriften scannen?", "Kann ich in der Bibliothek scannen?"],
-         "responses": ["Weitere Informationen zu unserem Digitalisierungsservice findest du <a href='https://www.fu-berlin.de/sites/ub/service/digitalisierung/index.html' target="_blank" rel="noopener">hier</a>"]
+         "responses": ["Weitere Informationen zu unserem Digitalisierungsservice findest du <a href='https://www.fu-berlin.de/sites/ub/service/digitalisierung/index.html' target='_blank' rel='noopener'>hier</a>"]
         },
         {"tag": "carrels",
          "patterns": ["Gibt es auch Einzelarbeitsräume?", "Kann ich irgwedwo ungestört Arbeiten?", "Gibt es Carrels?"],
-         "responses": ["Die Einzelarbeitsräume stehen Doktoranden/innen, Examenskandidat/inn/en im Masterstudium und Gastwissenschaftler/innen der Fachbereiche der Campusbibliothek (Natur-, Kultur- und Bildungswissenschaften, Mathematik, Informatik und Psychologie) der Freien Universität Berlin zur Verfügung. Weitere Infos findest du <a href='https://www.fu-berlin.de/sites/campusbib/services/Einzelarbeitsraeume/index.html' target="_blank" rel="noopener">hier</a>"]
+         "responses": ["Die Einzelarbeitsräume stehen Doktoranden/innen, Examenskandidat/inn/en im Masterstudium und Gastwissenschaftler/innen der Fachbereiche der Campusbibliothek (Natur-, Kultur- und Bildungswissenschaften, Mathematik, Informatik und Psychologie) der Freien Universität Berlin zur Verfügung. Weitere Infos findest du <a href='https://www.fu-berlin.de/sites/campusbib/services/Einzelarbeitsraeume/index.html' target='_blank' rel='noopener'>hier</a>"]
         },
         {"tag": "lost_found",
          "patterns": ["Ich habe etwas verloren?", "Wo bekomme ich verlorene Sachen zurück", "Gibt es eine Fundkiste?"],
